@@ -44,6 +44,12 @@ public class TelegramBotUpdatesListener implements UpdatesListener {
         });
         return UpdatesListener.CONFIRMED_UPDATES_ALL;
     }
+
+    /**
+     * send message without keyboard
+     * @param update
+     * @param message
+     */
     private void sendMessage(Update update, String message) {
         Long chatId = update.message().chat().id();
         SendResponse response = telegramBot.execute(new SendMessage(chatId, message));
