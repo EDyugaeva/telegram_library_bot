@@ -61,6 +61,16 @@
                     </configuration>
                 </plugin>
         </plugins>
+
+
     </build>
+    <distributionManagement>
+        <repository>
+            <id>internal.repo</id>
+            <name>Internal repo</name>
+            <url>file:///Users\ekaterina\IdeaProjects\bot</url>
+        </repository>
+    </distributionManagement>
+
 
 </project>
