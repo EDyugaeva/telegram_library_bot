@@ -14,7 +14,7 @@
     <name>bot</name>
     <description>bot</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -61,6 +61,16 @@
                     </configuration>
                 </plugin>
         </plugins>
+
+
     </build>
+    <distributionManagement>
+        <repository>
+            <id>internal.repo</id>
+            <name>Internal repo</name>
+            <url>file:///Users\ekaterina\distriburion\1</url>
+        </repository>
+    </distributionManagement>
+
 
 </project>
