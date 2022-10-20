@@ -68,7 +68,7 @@
         <repository>
             <id>internal.repo</id>
             <name>Internal repo</name>
-            <url>file:///Users\ekaterina\IdeaProjects\bot</url>
+            <url>file:///Users\ekaterina\distriburion\1</url>
         </repository>
     </distributionManagement>
 
